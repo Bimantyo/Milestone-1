@@ -1,4 +1,4 @@
-# :department_store: Supplement Sales on E-Commerce Platforms in 2020 - 2024  
+# :department_store: Supplement Sales on E-Commerce Platforms
 
 Hello! I’m Bima, and this project is focused on analyzing sales data to determine:
 
