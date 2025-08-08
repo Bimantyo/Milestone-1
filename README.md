@@ -1,58 +1,65 @@
-<h1 align="left">Hi 👋! My name is Bimantyo Arya and I'm a Data Enthusiast, from Indonesia</h1>
+# :department_store: Supplement Sales on E-Commerce Platforms in 2020 - 2024  
 
-###
+Hello! I’m Bima, and this project is focused on analyzing sales data to determine:
 
-<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjNvcDI3dnFxODNkeTZwcGlscGk3N2xzNGJ0cXpzZTM0Yzl6cjdzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OumCa12QC9CIvBe2c1/giphy.gif"  />
+- Which products have the highest selling rates and receive the most positive feedback.
 
-###
-These are my Tech Stack that i used 
-<div align="left">  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="30" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  
-</div>
+- Which platforms are most preferred by customers.
 
-###
+- How discounts influence overall sales performance.
 
-<div align="left">
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-</div>
+The aim of this project is to uncover actionable insights that can help optimize product offerings, choose the right sales channels, and develop effective discount strategies to maximize revenue and customer satisfaction.
 
-###
+## 🛠️ Repository Outline 
 
-# Judul Project
-Analisa Penjualan Supplemen Pada Platform E-Commcerce Pada Tahun 2020 - 2024
+This repository contains the following files:
 
-## Repository Outline
-Program ini digunakan untuk menganalisa data penjualan suplemen dalam kurun waktu 5 tahun, dimulai dari Januari 2020 - Desember 2024, yang berbasis di United States of America, United Kingdom, dan Canada pada platform Amazon, Walmart, dan iHerb.
+1. `README.md` – General overview of the project.  
+2. `Milestone_1.ipynb` – Main notebook for data processing.
+3.  `Milestone_1_dataset.csv` = The original dataset. 
 
-## Problem Background
-Kesehatan merupakan salah satu hal yang tidak dapat diabaikan dalam kehidupan. Semenjak COVID-19 masyarakat jauh lebih sadar akan pentingnya kesehatan, hal ini memicu meningkatnya minat terhadap produk kesehatan seperti suplemen untuk membantu meningkatkan imun tubuh seperti protein, vitamins, omega, dan lain lain. Pasca COVID-19 juga merubah pola belanja masyarakat dari yang sebelumnya cenderung untuk membeli secara offline dan beralih ke pembelian secara online melalui e-commerce platforms seperti Amazon, Walmart dan iHerb.
+## :eyes: Problem Background
+Health is one of the most important aspects of life and cannot be overlooked. Since the COVID-19 pandemic, public awareness of health has increased significantly. This shift has fueled growing interest in health-related products, particularly dietary supplements designed to support and strengthen the immune system, such as protein, vitamins, omega-3, and other essential nutrients.
 
-Penelitian ini akan berfokus kepada kategori suplemen mana yang memiliki tingkat penjualan terbaik, platform penjualan mana yang paling efektif, bagaimana tren penjualan produk, secara data historis untuk bisa menjadi acuan pengambilan keputusan bisnis.
+The post-COVID-19 era has also transformed consumer purchasing behavior. Where people once preferred buying products offline, there has been a substantial shift toward online shopping through e-commerce platforms such as Amazon, Walmart, and iHerb. This change has created new opportunities and challenges for businesses operating in the health and wellness sector.
 
-## Project Output
-Output project ini berupa dashboard visualisasi dan hasil perhitungan analisa yang dilakukan untuk mengetahui performa penjualan produk suplemen pada platform e-commerce.
+This study focuses on identifying which supplement categories achieve the highest sales performance, determining which sales platforms are most effective, and analyzing sales trends over time based on historical data. The insights gained from this analysis aim to serve as a valuable reference for strategic business decision-making, helping brands optimize product offerings, select the right sales channels, and align marketing strategies with consumer demand.
 
-## Data
-Sumber data yang digunakan berasal dari kaggle, untuk sumber data dapat dilihat di https://www.kaggle.com/datasets/zahidmughal2343/supplement-sales-data. 
+## 📊 Project Highlights
 
-Dataset ini memiliki beberapa kolom utama seperti tanggal penjualan (Date), nama produk (Product Name), kategori produk (Category), jumlah unit terjual (Units Sold), harga (Price), pendapatan (Revenue), diskon (Discount), unit yang dikembalikan (Units Returned), lokasi (Location), dan platform (Platform). Dataset ini memiliki total 4384 baris, semua baris bersifat unique jadi tidak ada missing values. Data yang tersedia dari 2020 - 2025, namun karena data pada tahun 2025 masih belum lengkap maka data yang diolah hanya dari 2020 - 2024 saja guna menghindari ketimpangan data. Mayoritas data memiliki distribusi yang normal.
+- Vitamin & Mineral products are the most in-demand category, recording the highest sales compared to other supplement types.
+- Sales trends vary across platforms and tend to fluctuate, but iHerb consistently demonstrates the strongest sales performance.
+- iHerb is also the most preferred platform among customers and has generated the highest total revenue over the five-year period.
+- Discount offerings do not strongly influence customer purchasing behavior.
 
-## Stacks
-Untuk library yang digunakan pada program ini menggunakan bahasa pemrograman python dan untuk library python menggunakan pandas, seaborn, matplotlib, dan scipy 
+## :computer: Data
+The data source used comes from [kaggle](https://www.kaggle.com/datasets/zahidmughal2343/supplement-sales-data)
 
-## Reference
+This Dataset contains : 
 
-Hasil Dashboard dapat dilihat pada link berikut : [Dashboard Tableau](https://public.tableau.com/app/profile/bimantyo.arya.majid/viz/P0M1_Bimantyo_arya/Dashboard1?publish=yes)
+- Date
+- Product Name
+- Category
+- Units Sold
+- Price
+- Revenue
+- Discount
+- Units Returned
+- Location
+- Platform
 
----
+This dataset has a total of 4,384 rows, all rows are unique, so there are no missing values. Data is available from 2020 to 2025. However, because the 2025 data is incomplete, only data from 2020 to 2024 was processed to avoid data imbalance. The majority of the data has a normal distribution.
+
+## 🛠 Tools & Skills
+
+- **Python**
+- **pandas, numpy** — data manipulation
+- **matplotlib, seaborn** — data visualization
+- **scipy** — analysis
+
+## :necktie:  Let’s Get To Know Each Other!
+
+I welcome any feedback, suggestions, or opportunities for collaboration. If you would like to connect or discuss ideas, feel free to reach out.
+
+**Bimantyo Arya Majid**  
+[Email](bimantyoarya13@gmail.com) | [LinkedIn](https://www.linkedin.com/in/bimantyoarya/)
