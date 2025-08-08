@@ -1,5 +1,7 @@
 # :department_store: Supplement Sales on E-Commerce Platforms
 
+---
+
 Hello! I’m Bima, and this project is focused on analyzing sales data to determine:
 
 - Which products have the highest selling rates and receive the most positive feedback.
